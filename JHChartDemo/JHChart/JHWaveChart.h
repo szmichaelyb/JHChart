@@ -2,7 +2,7 @@
 //  JHWaveChart.h
 //  JHChartDemo
 //
-//  Created by cjatech-简豪 on 16/4/13.
+//  Created by 简豪 on 16/4/13.
 //  Copyright © 2016年 JH. All rights reserved.
 //
 
@@ -21,14 +21,14 @@ typedef NS_ENUM(NSInteger,JHWaveChartType){
 
 
 /*         X轴刻度数据          */
-@property (nonatomic,strong) NSArray * xLineDataArr;
+@property (nonatomic, strong) NSArray * xLineDataArr;
 
 
 /*         值数据数组          */
-@property (nonatomic,strong) NSArray * valueDataArr;
+@property (nonatomic, strong) NSArray * valueDataArr;
 
 
-@property (nonatomic,strong) UIColor * xAndYLineColor;
+@property (nonatomic, strong) UIColor * xAndYLineColor;
 -(instancetype)initWithFrame:(CGRect)frame andType:(JHWaveChartType)waveChartType;
 
 
